@@ -5,12 +5,12 @@ module github.com/mlowery/kubectl-watchhook
 go 1.13
 
 require (
-	github.com/fatih/color v1.9.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/pkg/errors v0.8.1
-	github.com/sergi/go-diff v1.1.0
 	github.com/spf13/cobra v0.0.5
 	github.com/spf13/pflag v1.0.5
+	golang.org/x/sys v0.0.0-20191026070338-33540a1f6037 // indirect
+	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 	k8s.io/apimachinery v0.0.0-20200214081019-2373d029717c
 	k8s.io/cli-runtime v0.0.0-20200221172330-03707b9714f9
 	k8s.io/client-go v0.0.0-20200221163114-cb2a0501818e
